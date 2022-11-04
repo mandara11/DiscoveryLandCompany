@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: messina-sans;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    border: 0px solid black;
+}
+.backgroundvideo{
+    width: 100%;    
+    height: 100%;
+    z-index: -1;    
+    position: absolute;
+    object-fit: cover;    
+}
+.main
+{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContent{
+    width: 40%;
+    height: 100%;
+    border: 0px solid black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    left:200px;
+}
+.logoContent img {
+    width: 40px;
+}
+.logo { 
+    color: white;
+    display: flex;
+    flex-direction: column;    
+}
+.logoHead {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.logoText {
+    font-size: 9px;   
+    letter-spacing: 3px; 
+}
+.main1{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: medium;
+}
+.main1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+.backgroundtext{
+    width: 100%;
+    height: 50%;
+    color: white;
+    border: 0px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    right: 230px;
+    top: 35px;
+    font-size: 45px;
+}
+.backgroundtext h2{
+    font-family: Times New Roman 'Times New Roman', Times, serif;
+}
+.scroll{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.scrollexplore{
+    color: #fff;
+    display: flex;
+    border: 0px solid red;
+    width: 65%;
+    font-size: 19px;
+    opacity: 0.8;
+}
+.container{
+    width: 100vw;
+    height: 55vh;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 29px;
+    opacity: 0.8
+}
+
+.container2{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    background-color: #fff;
+    justify-content: space-around;
+}
+.box1{
+    width: 30%;
+    height: 80%;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 45px;
+}
+.text{
+    font-family: Book Antiqua; 
+    font-size: xx-large;
+    line-height: 1.1;
+    position: relative;
+    bottom: 25px;
+}
+.paragraph1{
+    display: block;
+    text-align: start;
+    font-family: serif;
+    position: relative;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+.box1txt{
+    width: 65%;
+    height: 60%;
+    display: flex;
+    border: 0px solid black;
+    justify-content: center;
+    align-items: center;  
+}
+.box2 {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border: 0px solid black;
+    position: relative;
+    top: 20px;
+    right: 28px;
+
+}
+.box2 img {
+    width: 100%;
+    height: 100%;
+}
+.container3{
+    width: 100vw;
+    height: 420vh;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    background-color: #f0f0f0;
+}
+.subcontainer1{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    border: 0px solid red;
+}
+.greybox{
+    height: 60%;
+    width: 63%;
+    border: 1px solid gray;
+    background-color: #b8b8b8;
+    position: relative;
+    top: 230px;
+    left: 15.5%;
+    z-index: 1;
+}
+.imgbox{
+    width: 76%;
+    height: 700px;
+    border: 1px solid gray;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+}
+.whitebox{
+    width: 32%;
+    height: 450px;
+    border: 0px solid black;
+    background-color: white;
+    position: relative;
+    top: 10%;
+    right: 5%;
+    z-index: 3;
+}
+.imgname{
+    width: 75%;
+    height: 10%;
+    border: 0px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    line-height: 2.5;
+    display: flex;
+}
+.paragraph2{
+    width: 75%;
+    height: 35%;
+    border: 0px solid black;
+    line-height: 1.8;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-family: Book Antiqua;
+}
+.mainbutton{
+    width: 75%;
+    height: 15%;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 12.5%;
+    top: 100px;
+}
+#btn {
+    width: 40%;
+    height: 80%;
+    background: transparent;
+    border: 1px solid rgb(128, 119, 119);
+    color: gray;
+    font-size: medium;  
+}
+.imgbox img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.subcontainer2{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    border: 0px solid red;
+}
+.subcontainer3{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    border: 0px solid red;
+}
+.graybox2{
+    height: 60%;
+    width: 63%;
+    display: flex;
+    border:0px solid black;
+    background-color: #b8b8b8;
+    position: relative;
+    top: 270px;
+    left: 21.5%;
+    z-index: 1;
+}
+.imgbox2{
+    width: 76%;
+    height: 700px;
+    border: 0px solid yellow;
+    position: absolute;
+    left: 25%;
+    z-index: 2;
+}
+.whitebox2{
+    width: 32%;
+    height: 450px;
+    border: 0px solid white;
+    background-color: white;
+    position: relative;
+    right: 52%;
+    top: 10%;
+    z-index: 3;
+}
+.imgbox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.textalign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+    
+}
+.imgbox3{
+    width: 76%;
+    height: 610px;
+    border: 0px solid gray;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+}
+.imgbox3 img {
+    width: 100%;
+    height: 100%;
+}
+.greybox3{
+    height: 60%;
+    width: 63%;
+    border: 0px solid gray;
+    background-color: #b8b8b8;
+    position: relative;
+    top: 200px;
+    left: 15.5%;
+    z-index: 1;
+}
+.container4{
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/139/img_5dabbd1a34149dcaed83515ff1526a0f.jpg ");
+    border: 0px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.worldalign{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16%;
+    line-height: 3;
+}
+.ourworld{
+    font-style: normal;
+    color: #ffff ;
+    font-size: 45px;
+}
+.ourbutton{
+    display: flex;
+    border: 0px solid blue;
+    width: 10%;    
+}
+#btn1 {
+    width: 80%;
+    height: 200%;
+    background: transparent;
+    border: 1px solid rgb(128, 119, 119);
+    color: white;
+    font-size: medium;  
+}
+
+/*Footer Scetion*/
+.footer {
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+    color: white;
+    border: 0px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.footer1{
+    width: 45%;
+    height: 80%;
+    border: 0px solid blue;
+}
+.imglogo{
+    width: 38px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.footer2{
+    width: 55%;
+    height: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: flex-end;
+    font-size: 15px;   
+}
+.subfoot1{
+    width: 32.2%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot2{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.bottom-footer{
+    width: 100vw;
+    height: 6vh;
+    border: 0px solid red;
+    background-color: #161f1e;
+    color:white;
+    font-size: small;
+    position: relative;
+    bottom: 74px;
+}
+.bottom-footer p{
+    position: relative;
+    left: 120px;
+}
+
+
+@media only screen and (min-width :320px) and (max-width :480px){
+    .main1{
+        display: none;
+    }
+    .logoContent{
+        width: 30%;
+        height: 10%;
+        position: relative;
+        left: 40px;
+        top: 0px;
+    }
+    .backgroundtext{
+        width: 70%;
+        font-size: 25px;
+        left: 26px;
+    }
+    .symbol{
+        width: 20%;
+    }
+    .scrollexplore{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        height: 50%;
+        font-size: 22px;
+    }
+    .container p{
+        position: relative;
+        top: 20px;
+    }
+    .container2{
+        width: 100vw;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        position: relative;
+        top: 60px;
+    }
+    .box2{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        bottom: 1300px;
+    }
+    
+    
+
+
+
+
+    .footer{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 110px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }
+    .bottom-footer{
+        border: 0px solid red;
+        position: relative;
+        bottom: 3px;
+        left: 0px ;
+        margin: 0;
+        padding: 0;
+    }
+    .bottom-footer p{
+        position: relative;
+        left: 28px;
+    }
+}
+
+
+
+

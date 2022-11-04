@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: messina-sans;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    border: 0px solid black;
+}
+.backgroundvideo{
+    width: 100%;    
+    height: 100%;
+    z-index: -1;    
+    position: absolute;
+    object-fit: cover;    
+}
+.main
+{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContent{
+    width: 40%;
+    height: 100%;
+    border: 0px solid black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    left:200px;
+}
+.logoContent img {
+    width: 40px;
+}
+.logo { 
+    color: white;
+    display: flex;
+    flex-direction: column;    
+}
+.logoHead {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.logoText {
+    font-size: 9px;   
+    letter-spacing: 3px; 
+}
+.main1{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: medium;
+}
+.main1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+.backgroundtext{
+    width: 100%;
+    height: 50%;
+    color: white;
+    border: 0px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    right: 230px;
+    top: 35px;
+    font-size: 45px;
+}
+.backgroundtext h2{
+    font-family: Times New Roman 'Times New Roman', Times, serif;
+}
+.scroll{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.scrollexplore{
+    color: #fff;
+    display: flex;
+    border: 0px solid red;
+    width: 65%;
+    font-size: 19px;
+    opacity: 0.8;
+}
+
+
+.container{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
+    border: 0px solid black;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+}
+.box1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+}
+.subbox1{
+    width: 55%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    position: relative;
+    top: 14%;
+    left: 24%;
+}
+.figure1{
+    width:66%;
+    height: 34%;
+    position: relative;
+    top: 41.7%;
+    left: 18%;
+}
+.figure1 img{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    font-size: 25px;
+    opacity: 0.8;
+}
+.subpara1{
+    font-size: 14px;
+    line-height: 1.9;
+    position: relative;
+    top: 9%;  
+    opacity: 0.7;
+}
+.box2{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    border: 0px solid red;
+}
+.figure2{
+    width:67%;
+    height: 75%;
+    display: flex;
+    opacity: 0.9;
+    border: 0px solid gray;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 8.5%;
+    top: 13%;  
+}
+.figure2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container1{
+    width: 100vw;
+    height: 185vh;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: column;
+}
+.subchild1{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    background-color: 	#F5F5F5;
+    border: 0px solid blue;
+    position: relative;
+    top: 9%;
+}
+.Text{
+    width: 55%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    position: relative;
+   
+    left: 12%;
+}
+.heading1{
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.para1{
+    font-size: 14px;
+    position: relative;
+    opacity: 0.7;
+    line-height: 1.9;
+    position: relative;
+    top: 20%;
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid red;
+    justify-content: flex-start; 
+    column-gap: 6%;
+    position: relative;
+    top: 46%;
+    font-size: medium;
+}
+.content a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.container2{
+    width: 100%;
+    height: 68%;
+    
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    top: 9%;
+    
+}
+.flex1{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.flex1 img{
+    width: 100%;
+    height: 100%;
+}
+.flex2{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    border: 0px solid blue;
+    background-color: #f0f0f0;
+    z-index: 2;
+    
+    right: 0px;
+}
+.blackbox{
+    width: 160%;
+    height: 55.5%;
+    display: flex;
+    background-color: #161f1e;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 0px solid black;
+    z-index: 3;
+}
+.imagebox{
+    width: 60%;
+    height: 56%;
+    display: flex;
+    border: 0px solid blue;
+    position: absolute;
+    z-index: 4;
+    right: 50px;
+}
+.imagebox img{
+    width: 100%;
+    height: 100%;
+}
+.icon1{
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    top: 35px;
+    opacity: 0.8;
+}
+
+.icon2{
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    column-gap: 36px;
+    position: relative;
+    top: 100px;
+    left: 55px;
+    opacity: 0.8;
+}
+#iconid{
+    font-size: 11px;
+    position: relative;
+    
+    opacity: 0.6;
+}
+.icon3{
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.6;
+    position: relative;
+    top: 160px;
+    left: 55px;
+}
+.subtext{
+    font-size: 36px;
+    opacity: 0.9;
+    position: relative;
+    top: 10px;
+}
+.icon4{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 230px;
+    left: 55px;
+    column-gap: 10px;
+    opacity: 0.6;
+}
+.subicon4{
+    font-size: 10px;
+}
+.subtext1{
+    font-size: 12px;
+}
+
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid red;
+}
+.picture{
+    width: 33.2%;
+    height: 100%;
+    border: 0px solid blue;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+.picture img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.pictitle {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    color: white;
+    z-index: 7;
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+
+/*Footer Scetion*/
+.footer {
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+    color: white;
+    border: 0px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.footer1{
+    width: 45%;
+    height: 80%;
+    border: 0px solid blue;
+}
+.imglogo{
+    width: 38px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.footer2{
+    width: 55%;
+    height: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: flex-end;
+    font-size: 15px;   
+}
+.subfoot1{
+    width: 32.2%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot2{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.bottom-footer{
+    opacity: 0.5;
+    font-size: small;
+    position: relative;
+    bottom: 74px;
+    left: 120px;
+}

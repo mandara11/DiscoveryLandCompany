@@ -1,0 +1,1334 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: messina-sans;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/806/YC-DSC_0007-2_2cbd80a0345be3b5a0b7649a1a2d057f.jpg ");
+    border: 0px solid black;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.main
+{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContent{
+    width: 40%;
+    height: 100%;
+    border: 0px solid black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    left:200px;
+}
+.logoContent img {
+    width: 40px;
+}
+.logo { 
+    color: white;
+    display: flex;
+    flex-direction: column;    
+}
+.logoHead {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.logoText {
+    font-size: 9px;   
+    letter-spacing: 3px; 
+}
+.main1{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: medium;
+}
+.main1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+.menubutton{
+    display: none;
+}
+.backgroundtext{
+    width: 100%;
+    height: 50%;
+    color: white;
+    border: 0px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    right: 210px;
+    top: 32px;
+    font-size: 35px;
+}
+.backgroundtext h2{
+    font-family: Times New Roman 'Times New Roman', Times, serif;
+}
+.scroll{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.scrollexplore{
+    color: #fff;
+    display: flex;
+    border: 0px solid red;
+    width: 65%;
+    font-size: 19px;
+    opacity: 0.8;
+}
+
+
+
+.container{
+    width: 100vw;
+    height: 55vh;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 29px;
+    opacity: 0.8
+}
+
+
+
+
+.container1{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+}
+.subcontainer1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    border: 0px solid red;
+    align-items: center;
+    justify-content: center;
+}
+.textbox{
+    width: 55%;
+    height: 70%;
+    display: flex;
+    border: 0px solid blue;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.text{
+    font-size: 25px;
+    position: relative;
+}
+.paragraph{
+    font-size: 14px;
+    position: relative;
+    top: 3%;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+.subcontainer2{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    border: 0px solid red;
+}
+.subcontainer2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container2{
+    width: 100vw;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0px solid blue;
+    background-color: #181f1e;
+}
+.subchild1{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+}
+.text1{
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    border: 0px solid purple;
+    
+}
+.text1 h2{
+    position: relative;
+    top: 23%;
+    left: 20%;
+    font-size: 30px;
+}
+.text2{
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid purple;
+}
+.subtext2{
+    width: 80%;
+    height: 55%;
+    font-size: 14px;
+    display: flex;
+    border: 0px solid red;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    position: relative;
+    top: 13%;
+}
+.buttonclass {
+    width: 78%;
+    height: 12%;
+    position: relative;
+    top: 13%;
+}
+#btn {
+    width: 32%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid rgb(128, 119, 119);
+    color: white;
+    font-size: small;
+}
+.subchild2{
+    width: 78vw;
+    height: 94vh;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/9385/Screenshot-2022-01-21-at-09.47-3_220404_102430_fa91343311d004704fa3ce6a3567953a.jpg");
+    display: flex;
+    flex-direction: row;
+    border: 0px solid white;
+    position: relative;
+    left: 12%;
+    background-size: cover;
+    background-position: center;   
+}
+.container3{
+    width: 100vw;
+    height: 260vh;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+}
+.subclass1{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    border: 0px solid blue;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/159/What_we_do_design_hero_62018727b9e8103a3d5d6c0701991eca.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 5%;
+}
+.subclass2{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    position: relative;
+    top: 5%;
+}
+.subdesign1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border:0px solid purple;
+}
+.subdesign2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border:0px solid purple;
+}
+.image1{
+    width:67%;
+    height: 63%;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/157/What_we_do_design_1_2e8d9b92b1b20afb1d0f8d6550777aa2.jpg");
+    border: 0px solid brown;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 11%;
+    left: 23%;
+}
+.box1{
+    width: 55%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    position: relative;
+    top: 22%;
+    left: 6%;
+}
+.heading{
+    font-size: 20px;
+    opacity: 0.9;
+}
+.subpara1{
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    top: 9%;  
+    opacity: 0.7;
+}
+.subpara2{
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    top: 9%;  
+    opacity: 0.7;
+}
+.image2{
+    width:66%;
+    height: 34%;
+    position: relative;
+    top: 29%;
+    left: 6%;
+}
+.image2 img{
+    width: 100%;
+    height: 100%;
+}
+.container4{
+    width: 100vw;
+    height: 115vh;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/890/YCGolfClubHouse0916_1288_62018727b9e8103a3d5d6c0701991eca.jpg");
+    border: 0px solid red;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container5{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+}
+.subcontainer5{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    position: relative;
+    top: 12%;
+}
+.subbox1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid purple;
+}
+.box2{
+    width: 55%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    position: relative;
+    top: 12%;
+    left: 24%;
+}
+.figure1{
+    width:66%;
+    height: 34%;
+    position: relative;
+    top: 26%;
+    left: 18%;
+}
+.figure1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.subbox2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border: 0px solid purple;
+}
+.figure2{
+    width:67%;
+    height: 75%;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/153/What_we_do_builders_1_2e8d9b92b1b20afb1d0f8d6550777aa2.jpg");
+    border: 0px solid brown;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 6%;
+    
+}
+
+
+
+.container6{
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/160/What_we_do_footer_2_5dabbd1a34149dcaed83515ff1526a0f.jpg ");
+    border: 0px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.worldalign{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16%;
+    line-height: 3;
+}
+.ourworlds{
+    font-style: normal;
+    color: #ffff ;
+    font-size: 45px;
+}
+.ourbutton{
+    display: flex;
+    border: 0px solid blue;
+    width: 10%;    
+}
+#btn1 {
+    width: 80%;
+    height: 200%;
+    background: transparent;
+    border: 1px solid rgb(128, 119, 119);
+    color: white;
+    font-size: medium;  
+}
+
+/*Footer Scetion*/
+.footer {
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+    color: white;
+    border: 0px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.footer1{
+    width: 45%;
+    height: 80%;
+    border: 0px solid blue;
+}
+.imglogo{
+    width: 38px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.footer2{
+    width: 55%;
+    height: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: flex-end;
+    font-size: 15px;   
+}
+.subfoot1{
+    width: 32.2%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot2{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.bottom-footer{
+    width: 100vw;
+    height: 6vh;
+    border: 0px solid red;
+    background-color: #161f1e;
+    color:white;
+    font-size: small;
+    position: relative;
+    bottom: 74px;
+}
+.bottom-footer p{
+    position: relative;
+    left: 120px;
+}
+
+
+
+
+
+@media only screen and (min-width :320px) and (max-width :480px) {
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    .logo{
+        width: 20%;
+        height: 15%;
+    }
+    .logoHead{
+        position: relative;
+        bottom: 10px;
+        font-size: 22px;
+    }
+    .logoText{
+        position: relative;
+        bottom: 10px;
+        font-size: 5px;
+    }
+    .backgroundtext{
+        font-size: 22px;
+        position: relative;
+        left: 0px;
+    }
+    .scrollexplore{
+        display: none;
+    }
+    .container{
+        width: 80vw;
+        height: 60vh;
+        position: relative;
+        left: 20px;
+        top: 4px;
+        font-size: 20px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .subcontainer2{
+        width: 80vw;
+        height: 70vh;
+        position: relative;
+        bottom: 450px;
+        left: 35px;
+    }
+    .textbox{
+        width: 100vw;
+        height: 80vh;
+        border: 0px solid red;
+        position: relative;
+        top: 400px;
+        left: 80px;  
+    }
+    .text{
+        font-size: 24px;
+        border: 0px solid red;
+        display: flex;
+        justify-content: center;
+    }
+    .paragraph{
+        width: 80vw;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        top: 1px;
+        left: 30px;
+        right: 20px;
+        font-size: 14px;
+    }
+    .container2{
+        width: 100vw;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 320px;
+    }
+    .subchild1{
+        width: 100vw;
+        height: 60%;
+        display: flex;
+        border: 0px solid red;
+        flex-direction: column;
+    }
+    .text1{
+        border: 0px solid red;
+        width: 90%;
+        height: 20%;
+        position: relative;
+        top: 40px;
+        left: 0px;
+    }
+    .text1 h2{
+        font-size: 22px;
+    }
+    .subtext2{
+        width: 80%;
+    }
+    .text2{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+    .buttonclass{
+        position: relative;
+        top: 150px;
+        width: 150%;
+        height: 20%;
+    }
+    .subchild2{
+        width: 80%;
+        height: 20%;
+        position: relative;
+        top: 90px;
+        left: 30px;
+    }
+
+    .container3{
+        width: 100vw;
+        height: 180vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 0px solid blue;
+        position: relative;
+        top: 320px;
+    }
+    .subclass1{
+        width: 100%;
+        height: 18%;
+        border: 0px solid red;
+        position: relative;
+        top: 60px;
+    }
+    .box1{
+        width: 100vw;
+        height: 25%;
+        position: absolute;
+        top: 40px;
+    }
+    .subpara1{
+        width: 90%;
+        height: 100%;
+        font-size: 14px;
+        border: 0px solid red;
+    }
+    .image1{
+        width: 85vw;
+        height: 70%;
+        border: 0px solid red;
+        position: absolute;
+        top: 320px;
+        left: 25px;
+    }
+    
+    .image2{
+        display: none;
+    }
+    .container4{
+        width: 100vw;
+        height: 35vh;
+        position: relative;
+        top: 300px;
+    }
+    .container5{
+        width: 100vw;
+        height: 150vh;
+        border: 0px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 300px;
+    }
+    .figure1{
+        display: none;
+    }
+    .box2{
+        width: 90vw;
+        border: 0px solid red;
+        position: absolute;
+        left: 20px; 
+        top: -20px;
+    }
+    .figure2{
+        width: 90vw;
+        height: 55%;
+        position: absolute;
+        left: 15px;
+        top: 250px;
+    }
+    .container6{
+        width: 100vw;
+        height: 58vh;
+        position: relative;
+        top: 230px;
+    }
+    .ourbutton{
+        width: 45%;
+    }
+
+
+    .footer{
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+    }
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 110px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }
+    .bottom-footer{
+        border: 0px solid red;
+        position: relative;
+        bottom: 3px;
+        left: 0px ;
+        margin: 0;
+        padding: 0;
+    }
+    .bottom-footer p{
+        position: relative;
+        top: 140px;
+        left: 28px;
+    }   
+}
+
+@media only screen and (min-width :481px) and (max-width :768px){
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .backgroundtext{
+        font-size: 22px;
+        position: relative;
+        right: 100px;
+    }
+    .scrollexplore{
+        display: none;
+    }
+    .container{
+        width: 80vw;
+        height: 60vh;
+        display: flex;
+        position: relative;
+        left: 30px;
+        top: 4px;
+        font-size: 20px;
+    }
+    .container1{
+        display: flex;
+        width: 100vw;
+        height: 160vh;
+        flex-direction: column;
+    }
+    .subcontainer2{
+        width: 90vw;
+        height: 80vh;
+        position: relative;
+        bottom: 450px;
+        left: 35px;
+    }
+    .textbox{
+        width: 100vw;
+        height: 80vh;
+        border: 0px solid red;
+        position: relative;
+        top: 450px;
+        left: 100px;  
+    }
+    .text{
+        font-size: 24px;
+        border: 0px solid red;
+        display: flex;
+        justify-content: center;
+    }
+    .paragraph{
+        width: 90vw;
+        height: 60%;
+        border: 0px solid red;
+        position: relative;
+        top: 1px;
+        left: 30px;
+        right: 20px;
+        font-size: 18px;
+    }
+    .container2{
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+    }
+    .subchild1{
+        width: 90vw;
+        height: 60%;
+        display: flex;
+        border: 0px solid red;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+    }
+    .text1{
+        border: 0px solid red;
+        width: 90%;
+        height: 20%;
+        position: relative;
+        top: 35px;
+        left: 0px;
+    }
+    .text1 h2{
+        font-size: 24px;
+    }
+    .subtext2{
+        width: 80%;
+    }
+    .text2{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .buttonclass{
+        position: relative;
+        top: 150px;
+        width: 150%;
+        height: 22%;
+    }
+    .subchild2{
+        width: 80%;
+        height: 25%;
+        position: relative;
+        top: 550px;
+        left: 30px;
+    }
+    .container3{
+        width: 100vw;
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 0px solid blue;
+        position: relative;
+        top: 320px;
+    }
+    .subclass1{
+        width: 100%;
+        height: 28%;
+        border: 0px solid red;
+        position: relative;
+        top: -190px;       
+        
+    }
+    .box1{
+        width: 100vw;
+        height: 25%;
+        position: absolute;
+        top: -210px;
+    }
+    .subpara1{
+        width: 90%;
+        height: 80%;
+        font-size: 17px;
+        border: 0px solid red;
+    }
+    .image1{
+        width: 92vw;
+        height: 80%;
+        border: 0px solid red;
+        position: absolute;
+        top: 34px;
+        left: 36px;
+    }
+    .image2{
+        display: none;
+    }
+    .container4{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        top: 180px;
+    }
+    .container5{
+        width: 100vw;
+        height: 150vh;
+        border: 0px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 200px;
+    }
+    .figure1{
+        display: none;
+    }
+    .box2{
+        width: 95vw;
+        border: 0px solid red;
+        position: absolute;
+        left: 20px; 
+        top: -70px;
+    }
+    .subpara2{
+        font-size: 18px;
+    }
+    .figure2{
+        width: 90vw;
+        height: 80%;
+        position: absolute;
+        left: 15px;
+        top: 180px;
+    }
+    .container6{
+        width: 100vw;
+        height: 58vh;
+        position: relative;
+        top: 230px;
+    }
+    .ourworlds{
+        font-size: 40px;
+    }
+    .ourbutton{
+          border:0px solid red;
+          width: 40%;
+          position: relative;
+          left: 20px;
+    }
+
+
+    .footer{
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+    }
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 40px;
+    }
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 180px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }
+    .bottom-footer{
+        border: 0px solid red;
+        position: relative;
+        bottom: 3px;
+        left: 0px ;
+        margin: 0;
+        padding: 0;
+    }
+    .bottom-footer p{
+        position: relative;
+        top: 140px;
+        left: 34px;
+    }   
+}
+
+@media only screen and (min-width :769px) and (max-width :1024px){
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .backgroundtext{
+        font-size: 22px;
+        position: relative;
+        right: 100px;
+    }
+    .scrollexplore{
+        display: none;
+    }
+    .container{
+        width: 80vw;
+        height: 60vh;
+        display: flex;
+        position: relative;
+        left: 60px;
+        font-size: 26px;
+    }
+    .container1{
+        display: flex;
+        width: 100vw;
+        height: 200vh;
+        flex-direction: column;
+    }
+    .subcontainer2{
+        width: 80vw;
+        height: 110vh;
+        position: relative;
+        bottom: 520px;
+        left: 60px;
+    }
+    .textbox{
+        width: 100vw;
+        height: 80vh;
+        border: 0px solid red;
+        position: relative;
+        top: 560px;
+        left: 300px;  
+    }
+    .text{
+        font-size: 26px;
+        border: 0px solid red;
+        display: flex;
+        position: relative;
+        left: 30px;
+    }
+    .paragraph{
+        width: 90vw;
+        height: 60%;
+        border: 0px solid red;
+        position: relative;
+        top: 1px;
+        left: 30px;
+        right: 20px;
+        font-size: 18px;
+    }
+    .container2{
+        width: 100vw;
+        height: 180vh;
+        display: flex;
+        position: relative;
+    }
+    .subchild1{
+        width: 90vw;
+        height: 100%;
+        display: flex;
+        border: 0px solid red;
+        position: absolute;
+        top: 0px;
+    }
+    .text1{
+        border: 0px solid red;
+        width: 90%;
+        height: 20%;
+        position: relative;
+        top: 35px;
+        left: 0px;
+    }
+    .text1 h2{
+        font-size: 26px;
+    }
+    .subtext2{
+        width: 85%;
+    }
+    .text2{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 38px;
+        left: 50px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .buttonclass{
+        position: relative;
+        top: 130px;
+        width: 140%;
+        height: 10%;
+    }
+    .subchild2{
+        width: 80%;
+        height: 35%;
+        position: relative;
+        top: 550px;
+        left: 80px;
+    }
+    .container3{
+        width: 100vw;
+        height: 320vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 0px solid blue;
+        position: relative;
+        top: 320px;
+    }
+    .subclass1{
+        width: 100%;
+        height: 25%;
+        border: 0px solid red;
+        position: relative;
+        top: -230px;
+    }
+    .box1{
+        width: 100vw;
+        height: 28%;
+        position: absolute;
+        top: -200px;
+    }
+    .subpara1{
+        width: 90%;
+        height: 100%;
+        font-size: 16px;
+        border: 0px solid red;
+    }
+    .image1{
+        width: 80vw;
+        height: 70%;
+        border: 0px solid red;
+        position: absolute;
+        top: 100px;
+        left: 85px;
+    }
+    .image2{
+        display: none;
+    }
+    .container4{
+        width: 100vw;
+        height: 75vh;
+        position: relative;
+        top: 5px;
+    }
+    .container5{
+        width: 100vw;
+        height: 24s0vh;
+        border: 0px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 200px;
+    }
+    .figure1{
+        display: none;
+    }
+    .box2{
+        width: 95vw;
+        border: 0px solid red;
+        position: absolute;
+        left: 20px; 
+        top: -220px;
+    }
+    .subpara2{
+        font-size: 18px;
+    }
+    .figure2{
+        width: 80vw;
+        height: 120%;
+        position: absolute;
+        left:70px;
+        top: 70px;
+    }
+    .container6{
+        width: 100vw;
+        height: 65vh;
+        position: relative;
+        top: 400px;
+    }
+    .ourworlds{
+        font-size: 40px;
+    }
+    .ourbutton{
+          border:0px solid red;
+          width: 30%;
+          position: relative;
+          left: 20px;
+    }
+    .footer{
+        width: 100vw ;
+        height: 80vh;
+        position: relative;
+        top: 400px;
+    }
+    .footer2{
+        font-size: 15px
+    }
+    .subfoot1{
+        position: relative;
+        right: 90px;
+
+    }
+    .subfoot2{
+        position: relative;
+        right: 20px;
+    }
+    .subfoot3{
+
+    }
+    .imglogo{
+        position: relative;
+        left: 120px;
+    }
+    .bottom-footer{
+        position: relative;
+        top: 320px;
+    }
+}

@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: messina-sans;
+    box-sizing: border-box;
+}
+header {
+    background-color: #111;
+    width: 100vw;
+    height: 38vh;    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+}
+.main{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContent{
+    width: 40%;
+    height: 100%;
+    border: 0px solid blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 60px;
+}
+.logoContent img {
+    width: 45px;
+}
+.logo { 
+    color: white;
+    display: flex;
+    flex-direction: column;   
+     
+}
+.logoHead {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.logoText {
+    font-size: 7px;   
+    letter-spacing: 3px; 
+}
+
+.main1{
+    width: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: medium;
+}
+.main1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+.menubutton{
+    display: none;
+}
+
+
+/* middlesection */
+.container {
+    width: 100vw;
+    height: 370vh;
+    border: 0px solid blue;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.image{
+    width: 23.5%;
+    height: 12.5%;
+    border: 0px solid rgb(208, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+.image1{
+    display: none;
+}
+.image2{
+    display: none;
+}
+.gallery{
+    width: 100%;
+    height: 55%;
+    border: 0px solid black;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+.labels{
+    width: 100%;
+    height: 45%;
+    border: 0px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label {
+    color: white;
+    font-family: messina-sans;
+    font-size: .90rem;
+    line-height: 1em;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.label1{
+    color: #ffff;
+    font-size: medium;
+    opacity: 0.5;
+    line-height: 1.3;
+}
+
+  /*Footer Scetion*/
+  .footer {
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+    color: white;
+    border: 0px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.footer1{
+    width: 45%;
+    height: 80%;
+    border: 0px solid blue;
+}
+.imglogo{
+    width: 38px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.footer2{
+    width: 55%;
+    height: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: flex-end;
+    font-size: 15px;   
+}
+.subfoot1{
+    width: 32.2%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot2{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.bottom-footer{
+    width: 100vw;
+    height: 6vh;
+    border: 0px solid red;
+    background-color: #161f1e;
+    color:white;
+    font-size: small;
+    position: relative;
+    bottom: 74px;
+}
+.bottom-footer p{
+    position: relative;
+    left: 120px;
+}
+
+
+@media only screen and (min-width :320px) and (max-width :480px){
+    .logoContent{
+        width: 50%;
+        position: relative;
+        left: 15px;
+    }
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        height: auto;
+    }
+    .image{
+        width: 42%;
+        height: 25vh;
+    }
+    .image1{
+        display: block;
+        border: 0px solid red;
+        width: 42%;
+        height: 25vh;
+    }
+    .labels{
+        width: 100%;
+    }
+    .label{
+        font-size: 11px;
+    }
+    .label1{
+        font-size: 10px;
+    }
+    .footer{
+        width: 100vw;
+        
+        flex-direction: column;
+    }
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 110px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }
+    .bottom-footer p{
+        position: relative;
+        left: 28px;
+        top: 30px;
+    }
+}
+
+@media only screen and (min-width :481px) and (max-width :768px){
+    .logoContent{
+        width: 60%;
+    }
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        height: auto;
+    }
+    .image{
+        width: 44vw;
+        height: 45vh;
+    }
+    .image1{
+        display: block;
+        border: 0px solid red;
+        width: 44vw;
+        height: 45vh;
+    }
+    .label1{
+        font-size: 14px;
+    }
+    .footer{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 160px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }  
+    .bottom-footer{
+        position: relative;
+        right: 68px;
+    }
+}
+
+@media only screen and (min-width :769px) and (max-width :1024px){
+    .main{
+        width: 100vw;
+    }
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        height: auto;
+    }
+    .image{
+        width: 28%;
+        height: 40vh;
+    }
+    .image1{
+        display: block;
+        width: 28%;
+        height: 40vh;
+    }
+    .image2{
+        display: block;
+        width: 28%;
+        height: 40vh;
+    }
+    .labels{
+        width: 100%;
+    }
+    .label{
+        font-size: 13px;
+    }
+    .label1{
+        font-size: 12px;
+    }
+    .footer{
+        width: 100vw ;
+        height: 80vh;
+    }
+    .footer2{
+        font-size: 15px
+    }
+    .subfoot1{
+        position: relative;
+        right: 90px;
+
+    }
+    .subfoot2{
+        position: relative;
+        right: 20px;
+    }
+    .subfoot3{
+
+    }
+    .imglogo{
+        position: relative;
+        left: 55px;
+    }
+    .bottom-footer p{
+        left: 100px;
+    }
+}
+

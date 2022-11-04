@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: messina-sans;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../assets/discovery1.jpg);
+    width: 100vw;
+    height: 63vh;
+    border: 0px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.main
+{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContent{
+    width: 40%;
+    height: 100%;
+    border: 0px solid black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    left:200px;
+}
+.logoContent img {
+    width: 40px;
+}
+.logo { 
+    color: white;
+    display: flex;
+    flex-direction: column;    
+}
+.logoHead {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.logoText {
+    font-size: 8px;   
+    letter-spacing: 3px; 
+}
+.main1{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: medium;
+}
+.main1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+.menubutton{
+    display: none; 
+}
+.gallerytxt{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    position: relative;
+    left:300px;
+    top: 60px;
+}
+.gal{
+    color: #fff;
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 300%;
+}
+.container {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    background: black;
+}
+.gallery{
+    width: 33.1%;
+    height: 50%;
+}
+.gallery img {
+    width: 100%;
+    height: 80%;
+}
+.label {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: large;
+    height: 18%;
+    border: 0px solid red;
+}
+.footer {
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+    color: white;
+    border: 0px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.footer1{
+    width: 45%;
+    height: 80%;
+    border: 0px solid blue;
+}
+.imglogo{
+    width: 38px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.footer2{
+    width: 55%;
+    height: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: flex-end;
+    font-size: 15px;   
+}
+.subfoot1{
+    width: 32.2%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot2{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.subfoot3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    color: white;    
+    line-height: 2em;
+    position: relative;
+    top: 100px;
+}
+.bottom-footer{
+    width: 100vw;
+    height: 6vh;
+    border: 0px solid red;
+    background-color: #161f1e;
+    color:white;
+    font-size: small;
+    position: relative;
+    bottom: 74px;
+}
+.bottom-footer p{
+    position: relative;
+    left: 120px;
+}
+
+
+@media only screen and (min-width :320px) and (max-width :480px) {
+    .main1{
+        display: none;
+    }
+    .container{
+        height: auto;
+    }
+    .gallery{
+        width: 100%;
+        height: 50vh;
+    }
+    .logoContent {
+        width: 30%;
+        height: 10%;
+        position: relative;
+        left: 40px;
+        top: 0px;
+    }
+    .gallerytxt{
+        width: 10vw;
+        position: relative;
+        left: 18px;
+        top: 32px;
+        font-size: 12px;
+    }
+    .logoHead{
+        font-size: 20px;
+    }
+    .logoText{
+        font-size: 6px;
+    }
+
+    .menubutton{
+        display: flex;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    .footer{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 110px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }
+    .bottom-footer{
+        border: 0px solid red;
+        position: relative;
+        bottom: 3px;
+        left: 0px ;
+        margin: 0;
+        padding: 0;
+    }
+    .bottom-footer p{
+        position: relative;
+        left: 28px;
+    }
+    
+}
+@media only screen and (min-width :481px) and (max-width :768px){
+    .main1{
+        display: none;
+    } 
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .gallerytxt{
+        position: relative;
+        left: 30px;
+     }
+    .container{
+        height: auto;
+    }
+    .gallery{
+        width: 100%;
+        height: 50vh;
+    }
+    .footer{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .imglogo{
+        width: 30px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    
+    .footer2{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        font-size: 13px;
+        right: 160px;
+        
+    }
+    .subfoot1{
+        width: 100%;
+        height: 30%;
+        border: 0px solid red;
+        position: relative;
+        top: 100px;
+        
+    }
+    .subfoot2{
+        width: 50%;
+        height:50%;
+        border: 0px solid red;
+        position: relative;
+        top: 40px;
+    }
+    .subfoot3{
+        width: 50%;
+        height: 50%;
+        border: 0px solid red;
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }  
+    .bottom-footer{
+        position: relative;
+        right: 68px;
+    }
+}
+
+@media only screen and (min-width :769px) and (max-width :1024px){
+    .main{
+        width: 100vw;
+        height: 40%;
+    }
+    .main1{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        position: relative;
+        right: 60px;
+    }
+    .menubutton a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+    .gallerytxt{
+        font-size: 16px;
+        position: relative;
+        left: 130px;
+        top: 20px;
+    }
+    .logoContent{
+        width: 5%;
+        position: relative;
+        top: 0px;
+        left: 150px;
+    }
+    .container{
+        height: auto;
+    }
+    .gallery{
+        border: 0px solid red;
+        width: 50%;
+        height: 50%;
+    }
+    .label{
+        border: 0px solid red;
+        height: 70px;
+    }
+    
+    .footer{
+        width: 100vw ;
+        height: 80vh;
+    }
+    .footer2{
+        font-size: 14px;
+        position: relative;
+        right: 10px;
+    }
+    .subfoot1{
+        position: relative;
+        right: 110px;
+    }
+    .subfoot2{
+        position: relative;
+        right: 30px;
+    }
+    .imglogo{
+        position: relative;
+        left: 100px;
+    }
+    .bottom-footer p{
+        left: 100px;
+    }
+
+}
+
+    
